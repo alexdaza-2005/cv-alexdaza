@@ -26,11 +26,13 @@ body {
     border: 3px solid #d2b48c; 
     border-radius: 10px;
     margin-right: 20px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .header img:hover {
     transform: scale(1.2); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); 
 }
 
 .header-content {
