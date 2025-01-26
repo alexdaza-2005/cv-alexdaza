@@ -127,6 +127,13 @@ form input[type="submit"]:hover {
     font-size: 1.2rem;
 }
 
+.menu a:hover {
+    color: #473c38;
+}
+
+.content {
+    margin-left: 220px;
+}
 
 @keyframes fadeIn {
     from {
