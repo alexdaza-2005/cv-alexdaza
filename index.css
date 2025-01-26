@@ -22,11 +22,11 @@ body {
     border: 3px solid #d2b48c; 
     border-radius: 10px;
     margin-right: 20px;
-    transition: transform 0.3s ease; /* Añade transición */
+    transition: transform 0.3s ease; 
 }
 
 .header img:hover {
-    transform: scale(1.2); /* Agranda la imagen */
+    transform: scale(1.2); 
 }
 
 .header-content {
