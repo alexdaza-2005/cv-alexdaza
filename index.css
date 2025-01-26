@@ -50,7 +50,6 @@ body {
 }
 
 section {
-    border: 1px solid #000;
     padding: 10px;
     margin: 10px;
     width: calc(50% - 20px);
@@ -58,13 +57,7 @@ section {
     background-color: #f8f7f2; 
 }
 
-section:nth-child(odd) {
-    order: 1;
-}
 
-section:nth-child(even) {
-    order: 2;
-}
 
 h2 {
     font-family: 'Lato', sans-serif;
