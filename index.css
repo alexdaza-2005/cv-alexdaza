@@ -107,6 +107,26 @@ form input[type="submit"]:hover {
     background-color: #473c38;
 }
 
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #f8f7f2;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1001;
+}
+
+.menu a {
+    display: block;
+    color: #6b4c3a;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
 
 @keyframes fadeIn {
     from {
