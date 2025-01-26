@@ -16,7 +16,7 @@ body {
 .header img {
     width: 120px;
     height: 120px;
-    border: 3px solid #9a7de1;
+    border: 3px solid #d2b48c; 
     border-radius: 10px;
     margin-right: 20px;
 }
@@ -36,7 +36,7 @@ body {
 .divider {
     height: 2px;
     width: 100%;
-    background-color: #e2d4c6;
+    background-color: #ae7e5e;
     margin-top: 10px;
 }
 
