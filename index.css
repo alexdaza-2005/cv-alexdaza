@@ -63,6 +63,9 @@ section {
 #educacion {
     border: 1px solid #ff0000; 
 }
+#sobre-mi {
+    border: 1px solid #0000ff; /* Azul */
+}
 
 
 h2 {
