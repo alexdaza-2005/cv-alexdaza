@@ -63,9 +63,9 @@ body {
 }
 
 section {
-    padding: 10px;
-    margin: 10px;
-    width: calc(50% - 20px);
+    padding: 20px; 
+    margin: 20px; 
+    width: calc(50% - 40px); 
     box-sizing: border-box;
     background-color: #f8f7f2; 
     opacity: 0;
