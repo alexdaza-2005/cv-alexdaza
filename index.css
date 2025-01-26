@@ -75,7 +75,9 @@ section {
 #deportes {
     border: 1px solid #00ff00; 
 }
-
+#idiomas {
+    border: 1px solid #ff00ff; /* Magenta */
+}
 
 h2 {
     font-family: 'Lato', sans-serif;
