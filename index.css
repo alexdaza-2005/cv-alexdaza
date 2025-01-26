@@ -55,6 +55,7 @@ section {
     margin: 10px;
     width: calc(50% - 20px);
     box-sizing: border-box;
+    background-color: #f8f7f2; 
 }
 
 section:nth-child(odd) {
