@@ -79,6 +79,33 @@ section:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    margin-top: 20px;
+    background-color: #5a4231;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #473c38;
+}
 
 @keyframes fadeIn {
     from {
