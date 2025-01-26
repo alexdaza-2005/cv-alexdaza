@@ -70,6 +70,7 @@ section {
     opacity: 0;
     transform: translateY(20px);
     animation: fadeIn 1s ease-in-out forwards;
+    border-radius: 15px; 
 }
 
 section:hover {
