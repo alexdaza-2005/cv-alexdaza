@@ -2,9 +2,31 @@ body {
     background-color: #f5f5dc; 
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 section {
     border: 1px solid #000;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px;
+    width: calc(50% - 20px);
+}
+
+section:nth-child(1),
+section:nth-child(3) {
+    order: 1;
+}
+
+section:nth-child(2),
+section:nth-child(4) {
+    order: 2;
+}
+
+section:nth-child(5),
+section:nth-child(6) {
+    order: 3;
+    width: 100%;
 }
 
